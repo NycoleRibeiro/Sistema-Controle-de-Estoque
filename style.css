@@ -154,20 +154,53 @@ form.pesquisa {
     justify-content: center;
 }
 
-form.pesquisa input#codigo {
-    width: 90vw;
-    height: 30px;
-    background: #f4f4f4;
-    border: 1px solid #000000;
-    border-radius: 15px;
-    padding: 10px;
-
-}
-
 form.pesquisa button {
     background: none;
     border: none;
     margin-left: 20px;
     margin-right: 30px;
     font-size: 2.5em;
+}
+
+table.listaProdutos {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: left;
+    color: #1d1d1d;
+}
+
+table.listaProdutos th {
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+table.listaProdutos tr.impar {
+    background: #f4f4f4;
+}
+
+table.listaProdutos td {
+    padding: 10px 0px;
+}
+
+table.listaProdutos .codprod {
+    padding-left: 10px;
+    width: 10%;
+}
+
+table.listaProdutos .precoprod {
+    padding-left: 10px;
+    width: 10%;
+    text-align: right;
+}
+
+table.listaProdutos .qtdprod{
+    padding-left: 10px;
+    width: 10%;
+    text-align: center;
 }
