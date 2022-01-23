@@ -1,8 +1,108 @@
-form.pesquisa input#codigoEstoque {
-    width: 90vw;
+form.pesquisa input#codigo {
+    width: 80vw;
     height: 30px;
     background: #f4f4f4;
     border: 1px solid #000000;
     border-radius: 15px;
     padding: 10px;
+}
+
+.botaoPreto {
+    width: 10vw;
+    background: #000000;
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin: 2vh 2vh;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    text-align: center;
+}
+
+.botaoPreto:hover {
+    background: #f4f4f4;
+    color: #000000;
+    border: 1px solid #cecdcd;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+/* CADASTRO PRODUTO */
+
+.fundoPreto {
+    background: #00000096;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.cadastroWindow {
+    width: 40vw;
+    height: 50vh;
+    background: #ffffff;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    align-items: left;
+}
+
+.header {
+    width: 100%;
+    height: 6vh;
+    background: #000000;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 2vh;
+}
+
+.closeButton {
+    background: #be1b1b;
+    border-radius: 100px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    z-index: 99999;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+form#addProd {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inputG {
+    width: 90%;
+    height: 2vh;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.inputP {
+    width: 80%;
+    height: 2vh;
+    background: #f4f4f4;
+    border-radius: 10px;
 }
