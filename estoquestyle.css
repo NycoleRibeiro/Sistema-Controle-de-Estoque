@@ -1,3 +1,9 @@
+.barraPrincipal {
+    position: fixed;
+    width: 98%;
+    background-color: #ffffff;
+}
+
 form.pesquisa input#codigo {
     width: 80vw;
     height: 30px;
@@ -21,13 +27,13 @@ form.pesquisa input#codigo {
 }
 
 .botaoPreto:hover {
-    background: #f4f4f4;
-    color: #000000;
-    border: 1px solid #cecdcd;
-    transition: 0.3s;
     cursor: pointer;
 }
 
+.lista {
+    width: 100%;
+    margin-top: 15vh;
+}
 
 /* CADASTRO PRODUTO */
 
