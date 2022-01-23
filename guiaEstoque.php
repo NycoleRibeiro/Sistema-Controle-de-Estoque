@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estoquestyle.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Estoque</title>
 </head>
@@ -27,6 +27,9 @@
     <main>
         <div class="mainWindow">
             <form class="pesquisa" action="" method="POST">
+                <a href="cadastroProduto.php">
+                    <div class="botaoPreto">Novo Produto</div>
+                </a>
                 <input type="text" name="codigoEstoque" id="codigo" placeholder="Cód. do Produto">
                 <button name="buscarProduto" class="btn_busca" type="submit">
                     <i class="fas fa-search"></i>
