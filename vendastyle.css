@@ -1,3 +1,9 @@
+.barraPrincipal {
+    position: fixed;
+    width: 98%;
+    background-color: #ffffff;
+}
+
 form.pesquisa input#codigoVenda {
     width: 90vw;
     height: 30px;
@@ -5,4 +11,9 @@ form.pesquisa input#codigoVenda {
     border: 1px solid #000000;
     border-radius: 15px;
     padding: 10px;
+}
+
+.lista {
+    width: 100%;
+    margin-top: 15vh;
 }
